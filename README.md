@@ -93,7 +93,8 @@ I tried moving averages and Hilbert methods to create the envelope of the audio 
 The inconsistency of the amplitudes of the envelope values with the original values in the moving average method, which is done by writing the average of the values instead of the median value in an imaginary window walking on the signal, enabled me to discover Hilbert.
 I have observed that the "hilbert" command from the "scipy.signal" library, which is based on the Fourier transform, successfully creates the envelope of the sound at each frequency.
 
-# hilbert and moving average resim koy.
+## Moving Average Method and Hilbert Method Applied to Audio Signal:
+* The response of the RS neuron type as a result of the sound signal passing through the signal processing stages:
 ![WhatsApp Image 2021-10-01 at 14 49 54](https://user-images.githubusercontent.com/73841520/135615797-3c22d703-4c17-40cf-a811-5312dc574aba.jpeg)
 
 ![WhatsApp Image 2021-10-01 at 12 54 57](https://user-images.githubusercontent.com/73841520/135611584-06b44c42-9c68-4182-85e3-a7c00a75d7ac.jpeg)
@@ -120,3 +121,6 @@ In the continuation of this study, another button was presented to the user and 
 ### Tkinter Playback Izhikevich Neuron Model Output:
 
 ![WhatsApp Image 2021-10-01 at 12 33 29](https://user-images.githubusercontent.com/73841520/135611590-672f2b96-a62c-4135-bb37-a91fee1a46f0.jpeg)
+
+## FINAL PROJECT
+* After all these preliminary studies, sufficient information was gathered for the final project. The code starts the audio recording process from the first second. In parallel with the sound recording process, the sound is processed, assigned to the model and reflected to the output as sound. When the user starts speaking or the sound reaches the microphone, the model responds through the speaker and chats with the user.
