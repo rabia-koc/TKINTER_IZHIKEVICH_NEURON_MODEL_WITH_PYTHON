@@ -81,11 +81,8 @@ In the first studies, I made a sound recording by interfacing with the "Tkinter"
 I chose one of these 3 different methods to be used in the first stage of the signal processing steps, I got rid of the negative (-) values. I chose the full-wave rectifier operation to keep the signal between 0-1 to avoid data loss during the processing of the audio signal, avoid fluctuations in the signal, and preserve the authenticity of the data.
 
 ### The audio signal, full-wave rectified audio signal, half-wave rectified audio signal, and added offset audio signal:
-
 ![WhatsApp Image 2021-10-01 at 11 53 34](https://user-images.githubusercontent.com/73841520/135610021-a97a3c5d-2b1c-43aa-b18d-f95c65f3f230.jpeg)
-
 ![WhatsApp Image 2021-10-01 at 11 55 24](https://user-images.githubusercontent.com/73841520/135610017-a67015ba-3e76-4850-b36d-9e65f0c19181.jpeg)
-
 ![WhatsApp Image 2021-10-01 at 11 56 22](https://user-images.githubusercontent.com/73841520/135610010-d0e71316-3f16-45d5-b7c9-af036056bd3a.jpeg)
 
 ## Required explanations for the file "Hilbert_Moving_Average_Method_Sounddevice":
