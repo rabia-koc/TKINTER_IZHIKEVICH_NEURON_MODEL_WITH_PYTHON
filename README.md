@@ -27,11 +27,11 @@ Here, action potential and the number of sodium and potassium channels opened at
 
 Eugene M. Izhikevich stated in 2003 that two conditions are necessary for the development of brain models. These are computational simplicity and the ability to produce rich firing patterns. According to Izhikeivich, the Hodgkin-Huxley model is the most biophysically accurate but difficult to simulate neuron model. On the other hand, the integrated flesh-and-fire neuron model is computationally feasible, but not suitable for spikes of cortical neurons. The Izhikevich neuron model is a neuron model where the plausible aspects of these two neuron models meet: It is computationally efficient and realistic enough to simulate the spikes of cortical neurons.
 
-![Ekran görüntüsü 2021-09-28 145151](https://user-images.githubusercontent.com/73841520/135607018-2b9719cf-4564-40ab-a5dd-e082dce809db.png)  # 2.1-2.2
+![Ekran görüntüsü 2021-09-28 145151](https://user-images.githubusercontent.com/73841520/135607018-2b9719cf-4564-40ab-a5dd-e082dce809db.png)  # 2.1 - 2.2
 
 In the equation, the equations of the Hodgkin-Huxley model are reduced to a two-dimensional system by bifurcation methodologies. The post-jump reset equation is shown below.
 
-![Ekran görüntüsü 2021-09-28 145312](https://user-images.githubusercontent.com/73841520/135607033-5c678a7b-13a4-437f-bbe9-af739b1f1461.png)
+![Ekran görüntüsü 2021-09-28 145312](https://user-images.githubusercontent.com/73841520/135607033-5c678a7b-13a4-437f-bbe9-af739b1f1461.png)  # 2.3
 
 v and u are dimensionless variables; a, b, c, d dimensionless parameters; t time. The variable v represents the membrane potential of the neuron; The variable u was used to represent activation of K+ ionic currents and deactivation of Na+ ionic currents, i.e. membrane recovery variable. If the jump reaches +30mV, the membrane voltage and recovery variable are reset (Equation (2.3)). It is the 0.04v 2 + 5v + 140 part in Eq.(2.1) that allows the variable v representing the membrane potential to have the ms scale of the mV and the time representing the t value.
 
