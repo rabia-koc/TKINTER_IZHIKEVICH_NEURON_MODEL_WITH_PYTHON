@@ -71,6 +71,8 @@ The Izhikevich neuron model enabled the modeling of many different types of neur
 
 ## Tkinter Izhikevich Model Simulate:
 
+![WhatsApp Image 2021-10-01 at 12 02 54](https://user-images.githubusercontent.com/73841520/135610467-f0a04236-11ba-4376-b076-05af024363c4.jpeg)
+
 
 ## Required explanations for "Tkinter_Sound_Record_Abs_Half_Offset" python file: 
 
