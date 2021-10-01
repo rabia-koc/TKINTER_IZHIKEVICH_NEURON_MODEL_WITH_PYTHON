@@ -93,3 +93,12 @@ I tried moving averages and Hilbert methods to create the envelope of the audio 
 The inconsistency of the amplitudes of the envelope values with the original values in the moving average method, which is done by writing the average of the values instead of the median value in an imaginary window walking on the signal, enabled me to discover Hilbert.
 I have observed that the "hilbert" command from the "scipy.signal" library, which is based on the Fourier transform, successfully creates the envelope of the sound at each frequency.
 
+![WhatsApp Image 2021-10-01 at 12 56 01](https://user-images.githubusercontent.com/73841520/135611560-5e926fb1-702f-4157-b93e-51d0bddcdc9a.jpeg)
+
+![WhatsApp Image 2021-10-01 at 12 55 28](https://user-images.githubusercontent.com/73841520/135611574-89e43520-e57d-4a27-8497-14c857270c1c.jpeg)
+
+![WhatsApp Image 2021-10-01 at 12 54 57](https://user-images.githubusercontent.com/73841520/135611584-06b44c42-9c68-4182-85e3-a7c00a75d7ac.jpeg)
+
+### Tkinter Playback Izhikevich Neuron Model Output:
+
+![WhatsApp Image 2021-10-01 at 12 33 29](https://user-images.githubusercontent.com/73841520/135611590-672f2b96-a62c-4135-bb37-a91fee1a46f0.jpeg)
