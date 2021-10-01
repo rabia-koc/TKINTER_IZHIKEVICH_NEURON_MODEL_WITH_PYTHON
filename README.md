@@ -43,24 +43,24 @@ After the sudden jump of these values, reset parameters are c and d parameters, 
 
 Neocortical neurons are classified according to the types of jumps. Excitatory cortical cells are divided into three classes:
 
-RS: When RS neurons, the most specific neurons in the cortex, are stimulated by a constant stimulus, it starts with a few sudden jumps at first. It then continues to jump with a lower frequency. Increasing the power of the stimulus decreases the frequencies. In RS neuron type, c parameter is -65mV, d parameter is 8.
+* RS: When RS neurons, the most specific neurons in the cortex, are stimulated by a constant stimulus, it starts with a few sudden jumps at first. It then continues to jump with a lower frequency. Increasing the power of the stimulus decreases the frequencies. In RS neuron type, c parameter is -65mV, d parameter is 8.
 
-IB: In the face of a constant stimulus, this neuron model first begins with an irregular and almost continuous jump. At this time, the variable u is created. Then repetitive jumps occur. The c and d parameters are -55mV and 4, respectively.
+* IB: In the face of a constant stimulus, this neuron model first begins with an irregular and almost continuous jump. At this time, the variable u is created. Then repetitive jumps occur. The c and d parameters are -55mV and 4, respectively.
 
-CH: These neurons jump one after the other in response to a fixed value stimulus and line up in a heap. The frequency between hops can be as high as 40Hz. In this neuron type, the c parameter is -50mV and the d parameter is 2.
+* CH: These neurons jump one after the other in response to a fixed value stimulus and line up in a heap. The frequency between hops can be as high as 40Hz. In this neuron type, the c parameter is -50mV and the d parameter is 2.
 
 Inhibitory cortical cells are divided into two classes:
 
-FS: Performs high frequency jumps without adapting to a fixed value stimulus. Parameter a corresponds to a value of 0.1.
+* FS: Performs high frequency jumps without adapting to a fixed value stimulus. Parameter a corresponds to a value of 0.1.
 
-LTS: It starts with high frequency adaptation. It continues with a decreasing but still higher frequency. The reason for the low ignition threshold is that parameter b is 0.25.
+* LTS: It starts with high frequency adaptation. It continues with a decreasing but still higher frequency. The reason for the low ignition threshold is that parameter b is 0.25.
 In addition, the stimulus response of thalamo-cortical neurons that provide the main input to the cortex is simulated with this model:
 
-TC: These neurons jump in two different ways. In the first state, it is the resting state and then the depolarized state. At rest, the variable v is around -60mV. The next state is the hyperpolarization state, in which a negative stimulus is given. The v variable is around -90Mv.
+* TC: These neurons jump in two different ways. In the first state, it is the resting state and then the depolarized state. At rest, the variable v is around -60mV. The next state is the hyperpolarization state, in which a negative stimulus is given. The v variable is around -90Mv.
 
 The model can model other types of neurons:
 
-RZ: Such neurons have damped and sustained oscillations. Parameter a is 0.1 and parameter b is 0.26.
+* RZ: Such neurons have damped and sustained oscillations. Parameter a is 0.1 and parameter b is 0.26.
 
 The Izhikevich neuron model enabled the modeling of many different types of neurons in the brain. The compatibility of the equations we have explained above with the behavior of other neurons is also explained. It also helps to simulate large-scale neuronal networks.
 
