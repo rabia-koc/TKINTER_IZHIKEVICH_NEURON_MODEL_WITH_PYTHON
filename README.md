@@ -40,7 +40,6 @@ According to the equations, the listening potential varies between 70-60 mV. Mem
 After the sudden jump of these values, reset parameters are c and d parameters, respectively. The different selection of these parameters allows various dynamics to occur, as shown in the figure.
 
 ### Equations of the Izhikevich neuron model, the effect of parameters a, b, c, d on the action potential, the response of excitatory corticol neurons (RS, IB, CH) and cortical inhibitory neurons to constant current:
-
 ![Ekran görüntüsü 2021-09-28 144432](https://user-images.githubusercontent.com/73841520/135607003-338488ca-19b9-428d-8343-ea4e2650915b.png)
 
 Neocortical neurons are classified according to the types of jumps. Excitatory cortical cells are divided into three classes:
@@ -67,8 +66,8 @@ The model can model other types of neurons:
 The Izhikevich neuron model enabled the modeling of many different types of neurons in the brain. The compatibility of the equations we have explained above with the behavior of other neurons is also explained. It also helps to simulate large-scale neuronal networks.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Project Working Charts:
 ![Conversation tree example - Conversation tree example (7)](https://user-images.githubusercontent.com/73841520/135613951-8b403bea-4503-41ca-96bb-f3c6ead7ee60.png)
-
 ![egr](https://user-images.githubusercontent.com/73841520/135608976-bbb9203d-5642-473b-b94f-f5b7485b0374.png)
 
 ## Tkinter Izhikevich Model Simulate Output:
