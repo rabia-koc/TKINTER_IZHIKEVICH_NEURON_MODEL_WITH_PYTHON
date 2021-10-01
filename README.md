@@ -98,7 +98,6 @@ I have observed that the "hilbert" command from the "scipy.signal" library, whic
 ## Moving Average Method and Hilbert Method Applied to Audio Signal:
 * The response of the RS neuron type as a result of the sound signal passing through the signal processing stages:
 ![WhatsApp Image 2021-10-01 at 14 49 54](https://user-images.githubusercontent.com/73841520/135615797-3c22d703-4c17-40cf-a811-5312dc574aba.jpeg)
-
 ![WhatsApp Image 2021-10-01 at 12 54 57](https://user-images.githubusercontent.com/73841520/135611584-06b44c42-9c68-4182-85e3-a7c00a75d7ac.jpeg)
 
 A 2 second audio recording was taken from the user and I visualized the results of the two methods. In the graph of the moving average method, while the envelopes of high-frequency sounds are smoother, anomalies have occurred in the envelopes of low-frequency sounds.
@@ -109,16 +108,13 @@ In the continuation of this study, another button was presented to the user and 
 
 * The response of the IB neuron type as a result of the sound signal passing through the signal processing stages:
 ![WhatsApp Image 2021-10-01 at 14 52 15](https://user-images.githubusercontent.com/73841520/135615784-1e7a62c7-a000-4a88-82aa-28d786ed4c44.jpeg)
-
 ![WhatsApp Image 2021-10-01 at 12 56 01](https://user-images.githubusercontent.com/73841520/135611560-5e926fb1-702f-4157-b93e-51d0bddcdc9a.jpeg)
 
 * The response of the FS neuron type as a result of the sound signal passing through the signal processing stages:
 ![WhatsApp Image 2021-10-01 at 14 51 27](https://user-images.githubusercontent.com/73841520/135615804-bbab126b-38bc-49d7-be50-501c0702965b.jpeg)
-
 ![WhatsApp Image 2021-10-01 at 12 55 28](https://user-images.githubusercontent.com/73841520/135611574-89e43520-e57d-4a27-8497-14c857270c1c.jpeg)
 
-
-* The response of the RS neuron type as a result of the sound signal passing through the signal processing stages:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Tkinter Playback Izhikevich Neuron Model Output:
 
