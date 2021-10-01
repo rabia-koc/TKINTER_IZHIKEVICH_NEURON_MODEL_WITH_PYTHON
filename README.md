@@ -64,8 +64,16 @@ The model can model other types of neurons:
 
 The Izhikevich neuron model enabled the modeling of many different types of neurons in the brain. The compatibility of the equations we have explained above with the behavior of other neurons is also explained. It also helps to simulate large-scale neuronal networks.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+![Conversation tree example - Conversation tree example (7)](https://user-images.githubusercontent.com/73841520/135609391-200eab0e-2a8a-4339-8290-22eef80dfdda.png)
+
 ![egr](https://user-images.githubusercontent.com/73841520/135608976-bbb9203d-5642-473b-b94f-f5b7485b0374.png)
 
-![r3rf](https://user-images.githubusercontent.com/73841520/135608970-7ae4ccd2-7d11-4dd7-803c-697687768685.png)
+## Required explanations for "Tkinter_Sound_Record_Abs_Half_Offset" python file: 
+
+In the first studies, I made a sound recording by interfacing with the "Tkinter" library. I visualized 3 different processes that I applied to the audio signal to get rid of negative (-) values. The 2 seconds long audio from the user was recorded and the raw audio was plotted in dark blue. I got graphs drawn in red with full wave rectification, half wave rectification and offset summation.
+I chose one of these 3 different methods to be used in the first stage of the signal processing steps, I got rid of the negative (-) values. I chose the full-wave rectifier operation to keep the signal between 0-1 to avoid data loss during the processing of the audio signal, avoid fluctuations in the signal, and preserve the authenticity of the data.
+
+
 
 
