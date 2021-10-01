@@ -87,4 +87,9 @@ I chose one of these 3 different methods to be used in the first stage of the si
 
 ![WhatsApp Image 2021-10-01 at 11 56 22](https://user-images.githubusercontent.com/73841520/135610010-d0e71316-3f16-45d5-b7c9-af036056bd3a.jpeg)
 
+## Required explanations for the file "Hilbert_Moving_Average_Method_Sounddevice":
+
+I tried moving averages and Hilbert methods to create the envelope of the audio signal in the processing phase. I separated the background noise from the main audio data by taking 3 times the standard deviation of the first 0.1 seconds.
+The inconsistency of the amplitudes of the envelope values with the original values in the moving average method, which is done by writing the average of the values instead of the median value in an imaginary window walking on the signal, enabled me to discover Hilbert.
+I have observed that the "hilbert" command from the "scipy.signal" library, which is based on the Fourier transform, successfully creates the envelope of the sound at each frequency.
 
