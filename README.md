@@ -101,10 +101,13 @@ In the next work, the envelope of the 2-second audio signal received from the us
 In the images below, the raw sound in purple, the full rectifier sound in orange, the envelope of the sound signal in black and the response of each neuron type in blue are visualized.
 In the continuation of this study, another button was presented to the user and the neuron response was reflected to the speaker. While doing this, the "play" command in the "sounddevice" library was used for non-real-time work. In the latest real-time study, the model's response data was converted to a "byte" type and projected onto the speaker.
 
+* The response of the IB neuron type as a result of the sound signal passing through the signal processing stages:
 ![WhatsApp Image 2021-10-01 at 12 56 01](https://user-images.githubusercontent.com/73841520/135611560-5e926fb1-702f-4157-b93e-51d0bddcdc9a.jpeg)
 
+* The response of the FS neuron type as a result of the sound signal passing through the signal processing stages:
 ![WhatsApp Image 2021-10-01 at 12 55 28](https://user-images.githubusercontent.com/73841520/135611574-89e43520-e57d-4a27-8497-14c857270c1c.jpeg)
 
+* The response of the RS neuron type as a result of the sound signal passing through the signal processing stages:
 ![WhatsApp Image 2021-10-01 at 12 54 57](https://user-images.githubusercontent.com/73841520/135611584-06b44c42-9c68-4182-85e3-a7c00a75d7ac.jpeg)
 
 ### Tkinter Playback Izhikevich Neuron Model Output:
