@@ -64,4 +64,8 @@ The model can model other types of neurons:
 
 The Izhikevich neuron model enabled the modeling of many different types of neurons in the brain. The compatibility of the equations we have explained above with the behavior of other neurons is also explained. It also helps to simulate large-scale neuronal networks.
 
+![egr](https://user-images.githubusercontent.com/73841520/135608976-bbb9203d-5642-473b-b94f-f5b7485b0374.png)
+
+![r3rf](https://user-images.githubusercontent.com/73841520/135608970-7ae4ccd2-7d11-4dd7-803c-697687768685.png)
+
 
