@@ -93,6 +93,14 @@ I tried moving averages and Hilbert methods to create the envelope of the audio 
 The inconsistency of the amplitudes of the envelope values with the original values in the moving average method, which is done by writing the average of the values instead of the median value in an imaginary window walking on the signal, enabled me to discover Hilbert.
 I have observed that the "hilbert" command from the "scipy.signal" library, which is based on the Fourier transform, successfully creates the envelope of the sound at each frequency.
 
+# hilbert and moving average resim koy.
+
+A 2 second audio recording was taken from the user and I visualized the results of the two methods. In the graph of the moving average method, while the envelopes of high-frequency sounds are smoother, anomalies have occurred in the envelopes of low-frequency sounds.
+
+In the next work, the envelope of the 2-second audio signal received from the user is equalized to the input current in the Izhikevich model. Optimization is achieved by dividing 10 times the data of each envelope by the maximum value in the signal while synchronizing. In the interface, 3 different neuron type options are presented to the user. Differences were observed in the response of neuron types to the sound signal.
+In the images below, the raw sound in purple, the full rectifier sound in orange, the envelope of the sound signal in black and the response of each neuron type in blue are visualized.
+In the continuation of this study, another button was presented to the user and the neuron response was reflected to the speaker. While doing this, the "play" command in the "sounddevice" library was used for non-real-time work. In the latest real-time study, the model's response data was converted to a "byte" type and projected onto the speaker.
+
 ![WhatsApp Image 2021-10-01 at 12 56 01](https://user-images.githubusercontent.com/73841520/135611560-5e926fb1-702f-4157-b93e-51d0bddcdc9a.jpeg)
 
 ![WhatsApp Image 2021-10-01 at 12 55 28](https://user-images.githubusercontent.com/73841520/135611574-89e43520-e57d-4a27-8497-14c857270c1c.jpeg)
